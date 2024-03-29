@@ -20,8 +20,8 @@ app.use("/", (req, res) =>
     message: "success",
   })
 );
-app.use("/auth", authRoutes);
-app.use("/task", taskRouter);
+app.use("/api/auth", authRoutes);
+app.use("/api/task", taskRouter);
 
 // localhost:4000/auth/register
 
